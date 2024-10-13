@@ -4,6 +4,7 @@
 
 package com.mycompany.proyecto.futbol5;
 
+import static com.mycompany.proyecto.futbol5.Jugadores.gestion_jugadores;
 import javax.swing.JOptionPane;
 
 /**
@@ -23,10 +24,11 @@ public class ProyectoFutbol5 {
         int codigo = Integer.parseInt(JOptionPane.showInputDialog(
                 "⚽bienvenido al gestor de Partidos de Fútbol Cinco⚽:\n"
                 +"_________________________________________________\n"
-                + "1- Gestión de Equipos. ⚙\n"
-                + "2- Simulación de Partidos. 🏃🏼‍\n"
-                + "3- Reportes. ⚠\n"
-                + "4- Salir del Sistema. 🔚"));
+                +"1-Gestion de jugadores🏃\n"                       
+                + "2- Gestión de Equipos. ⚙\n"
+                + "3- Simulación de Partidos. 🏃🏼‍\n"
+                + "4- Reportes. ⚠\n"
+                + "5- Salir del Sistema. 🔚"));
 
         switch (codigo) {
             case 1:
@@ -66,20 +68,7 @@ public class ProyectoFutbol5 {
     // espacio para el metodo 
     // fuera del main 
     
-    public static void gestion_jugadores(){
-        String jugador= JOptionPane.showInputDialog("ingrese el nombre del jugador  ");
-        JOptionPane.showMessageDialog(null,"el jugador: " + jugador + ", fue añadido con exito");
-        
-        
-        // kakljadhsjklfskdlfklsd
-        //HOLA
-        //1234
-        // prueba
-        
-        //hlasa
-        ///jhashasjsd
-        //holaa
-    }
+
     
     
     
