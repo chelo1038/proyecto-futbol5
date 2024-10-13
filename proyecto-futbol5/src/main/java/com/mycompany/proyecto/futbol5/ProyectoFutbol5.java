@@ -71,7 +71,7 @@ public class ProyectoFutbol5 {
         JOptionPane.showMessageDialog(null,"el jugador: " + jugador + ", fue añadido con exito");
         
         
-        
+        // kakljadhsjklfskdlfklsd
         
     }
     
