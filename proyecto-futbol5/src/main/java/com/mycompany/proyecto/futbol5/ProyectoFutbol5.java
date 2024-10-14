@@ -53,7 +53,7 @@ public class ProyectoFutbol5 {
             default:
                 JOptionPane.showMessageDialog(null, "numero incorrecto");
                 
-                //Holaa
+                
         }
         }
 
@@ -68,18 +68,7 @@ public class ProyectoFutbol5 {
         
     }
     
-    // espacio para el metodo 
-    // fuera del main 
     
-
-    
-    
-    
-    // hjasdjfhsjkdhfjksdhfjksdhfkjhsjkdlf
-    
-    // kjshdfjkhsdjklfh
-    //ajskhdfkjahsdf
-  
     
 }
 
