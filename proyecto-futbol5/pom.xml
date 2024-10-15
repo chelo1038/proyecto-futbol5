@@ -9,5 +9,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>21</maven.compiler.release>
         <exec.mainClass>com.mycompany.proyecto.futbol5.ProyectoFutbol5</exec.mainClass>
+        <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+</properties>
+
     </properties>
 </project>
