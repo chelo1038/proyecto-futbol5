@@ -21,9 +21,11 @@ public class Jugadores {
 
             switch (codigo1) {
                 case 1:
+                    
 
                     break;
                 case 2:
+                    // se deberan almacenar los jugadores en listas
                     MostrarJugadores nuevoJugador = new MostrarJugadores();
                     nuevoJugador.ID = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el ID del jugador: "));
                     nuevoJugador.nombre = JOptionPane.showInputDialog("Ingrese el nombre del jugador: ");
@@ -35,11 +37,14 @@ public class Jugadores {
                     // mostrando el jugador que se acaba de añadir
                     JOptionPane.showMessageDialog(null, "El jugador " + nuevoJugador.nombre + ", en la posicion " + nuevoJugador.posicion + " ha sido añadido con éxito.");
                     nuevoJugador.mostrarDetalles();
+                    JOptionPane.showMessageDialog(null,"para editar el jugador visitar la opcion de 3- Editar jugador. 🏃🏼‍");
 
                 case 3:
+                    // falta ver listas
                     break;
 
                 case 4:
+                    //falta ver listas
                     break;
 
                 case 5:
