@@ -1,34 +1,33 @@
-
 package com.mycompany.proyectofinalfutbol5;
 
 import javax.swing.JOptionPane;
 
-
 public class MostrarJugadores {
-     int ID ; //0
+
+    int ID; //0
     String nombre; //null
     String posicion; //null
     String equipo; //null
     String estado;
     int goles; //vacio
     boolean activo; //false
-    
-     public void mostrarDetalles(){
-        String  actividad;
-       
+
+    public void mostrarDetalles() {
+        String actividad;
+
         if (activo) {
             actividad = "activo";
         } else {
-             actividad = "Inactivo";
+            actividad = "Inactivo";
         }
-        
-        JOptionPane.showMessageDialog(null, "DATOS DEL JUGADOR: " +nombre  
+
+        JOptionPane.showMessageDialog(null, "DATOS DEL JUGADOR: " + nombre
                 + "\nNOMBRE: " + nombre
                 + "\nPOSICION: " + posicion
-                + "\nEQUIPO: " + equipo 
+                + "\nEQUIPO: " + equipo
                 + "\nGoles: " + goles
-                + "\nESTADO: " + activo );
-        
+                + "\nESTADO: " + activo);
+
     }
-    
+
 }
