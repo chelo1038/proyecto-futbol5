@@ -1,4 +1,3 @@
-
 package com.mycompany.proyectofinalfutbol5;
 
 import javax.swing.JOptionPane;
@@ -34,10 +33,9 @@ public class Jugadores {
                     nuevoJugador.goles = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cantidad de goles: "));
                     nuevoJugador.activo = JOptionPane.showConfirmDialog(null, "¿Está activo?") == JOptionPane.YES_OPTION;
                     // mostrando el jugador que se acaba de añadir
-                    JOptionPane.showMessageDialog(null, "El jugador " + nuevoJugador.nombre +  ", en la posicion " + nuevoJugador.posicion + " ha sido añadido con éxito.");
+                    JOptionPane.showMessageDialog(null, "El jugador " + nuevoJugador.nombre + ", en la posicion " + nuevoJugador.posicion + " ha sido añadido con éxito.");
                     nuevoJugador.mostrarDetalles();
-                    
-                    
+
                 case 3:
                     break;
 
