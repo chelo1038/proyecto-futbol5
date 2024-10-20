@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 public class ProyectoFinalFutbol5 {
 
     public static void main(String[] args) {
-         boolean ejecutar = true;
+        boolean ejecutar = true;
         while (ejecutar) {
 
             int codigo = Integer.parseInt(JOptionPane.showInputDialog(
@@ -22,32 +22,32 @@ public class ProyectoFinalFutbol5 {
 
             switch (codigo) {
                 case 1:
-                    gestion_jugadores();
+                    Jugadores.gestion_jugadores();
                     break;
                 case 2:
-                    
+
                     break;
                 case 3:
-                    
-                     for (int i = 0; i < 5; i++) {
+
+                    for (int i = 0; i < 5; i++) {
                         JOptionPane.showMessageDialog(null,
                                 "simulacion de 40 jugadas.");
                     }
                     break;
-                 
+
                 case 4:
                     JOptionPane.showMessageDialog(null,
                             "reportes");
                     break;
-                    
+
                 case 5:
-                     JOptionPane.showMessageDialog(null,
+                    JOptionPane.showMessageDialog(null,
                             "saliendo del sistema, hasta luego! ");
                     ejecutar = false;
                     break;
-                    
+
                 default:
-                    JOptionPane.showMessageDialog(null, "numero incorrecto");
+                    JOptionPane.showMessageDialog(null, "numero incorrecto, intente nuevamente ");
 
             }
         }
@@ -64,16 +64,6 @@ public class ProyectoFinalFutbol5 {
 
         jugador1Equipo1.mostrarDetalles();
 
-
-
-        
-        
-        
-        
-        
-        
-        
-        
     }
 
     private static void gestion_jugadores() {
