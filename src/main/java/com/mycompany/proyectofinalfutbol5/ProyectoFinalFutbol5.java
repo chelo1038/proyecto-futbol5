@@ -31,14 +31,24 @@ public class ProyectoFinalFutbol5 {
                     }
                     break;
                 case 3:
+                    
+                     for (int i = 0; i < 5; i++) {
+                        JOptionPane.showMessageDialog(null,
+                                "simulacion de 40 jugadas.");
+                    }
+                    break;
+                 
+                case 4:
                     JOptionPane.showMessageDialog(null,
                             "reportes");
                     break;
-                case 4:
-                    JOptionPane.showMessageDialog(null,
+                    
+                case 5:
+                     JOptionPane.showMessageDialog(null,
                             "saliendo del sistema, hasta luego! ");
                     ejecutar = false;
                     break;
+                    
                 default:
                     JOptionPane.showMessageDialog(null, "numero incorrecto");
 
