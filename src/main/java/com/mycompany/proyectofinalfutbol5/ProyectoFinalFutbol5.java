@@ -25,10 +25,7 @@ public class ProyectoFinalFutbol5 {
                     gestion_jugadores();
                     break;
                 case 2:
-                    for (int i = 0; i < 5; i++) {
-                        JOptionPane.showMessageDialog(null,
-                                "simulacion de 40 jugadas.");
-                    }
+                    
                     break;
                 case 3:
                     
