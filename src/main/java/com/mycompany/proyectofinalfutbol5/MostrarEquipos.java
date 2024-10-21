@@ -13,5 +13,8 @@ public class MostrarEquipos {
    int golesAfavor =0;
    int golesEnContra =0;
    int posesionBalon =0;
-    
+   
+   
+   
+
 }
