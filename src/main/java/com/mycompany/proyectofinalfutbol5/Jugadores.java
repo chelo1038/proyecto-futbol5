@@ -7,21 +7,21 @@ public class Jugadores {
     public static void gestion_jugadores() {
         //String jugador= JOptionPane.showInputDialog("ingrese el nombre del jugador  ");
         // JOptionPane.showMessageDialog(null,"el jugador: " + jugador + ", fue añadido con exito");
-        boolean varGestion = true;
-        while (varGestion) {
+        boolean jugadorGestion = true;
+        while (jugadorGestion) {
 
             int codigo1 = Integer.parseInt(JOptionPane.showInputDialog(
-                    "⚽Bienvenido al gestor de jugadores ⚽:\n"
-                    + "_________________________________________________\n"
-                    + " 1- Mostrar jugadores. 🏃\n"
-                    + "2- Agregar nuevo jugador. ⚙\n"
-                    + "3- Editar jugador. 🏃🏼‍\n"
-                    + "4- Eliminar jugador. ⚠\n"
-                    + "5- Volver al menu. 🔚"));
+                    "╔══════════════ Gestión de Jugadores ═════════════════╗\n"
+                    + "       1- Mostrar jugadores. 🏃\n"
+                    + "       2- Agregar nuevo jugador. ⚙\n"
+                    + "       3- Editar jugador. 🏃🏼‍\n"
+                    + "       4- Eliminar jugador. ⚠\n"
+                    + "       5- Volver al menu. 🔚\n"
+                    + "╚═══════════════════════════════════════════════════╝"));
 
             switch (codigo1) {
                 case 1:
-                    
+                    // faltan ver arreglos 
 
                     break;
                 case 2:
@@ -37,20 +37,20 @@ public class Jugadores {
                     // mostrando el jugador que se acaba de añadir
                     JOptionPane.showMessageDialog(null, "El jugador " + nuevoJugador.nombre + ", en la posicion " + nuevoJugador.posicion + " ha sido añadido con éxito.");
                     nuevoJugador.mostrarDetalles();
-                    JOptionPane.showMessageDialog(null,"para editar el jugador visitar la opcion de 3- Editar jugador. 🏃🏼‍");
+                    JOptionPane.showMessageDialog(null, "para editar el jugador visitar la opcion de 3- Editar jugador. 🏃🏼‍");
 
                 case 3:
-                    // falta ver listas
+                    // faltan ver arreglos 
                     break;
 
                 case 4:
-                    //falta ver listas
+                    // faltan ver arreglos 
                     break;
 
                 case 5:
                     JOptionPane.showMessageDialog(null,
                             "volviendo al menu principal  ");
-                    varGestion = false;
+                    jugadorGestion = false;
                     break;
 
                 default:
