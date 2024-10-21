@@ -2,7 +2,6 @@
 package com.mycompany.proyectofinalfutbol5;
 import javax.swing.JOptionPane;
 
-
 public class Equipo {
 
     public static void gestionEquipos() {
@@ -26,7 +25,10 @@ public class Equipo {
                     MostrarEquipos nuevoEquipo = new MostrarEquipos();
                     nuevoEquipo.IdEquipo = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el ID del equipo "));
                     nuevoEquipo.nombreEquipo = JOptionPane.showInputDialog("Ingrese el nombre del equipo ");
-                     JOptionPane.showInputDialog(null,"el equipo "+ nuevoEquipo.nombreEquipo + " con el ID " + nuevoEquipo.IdEquipo +" se agrego con exito");
+                    
+                    // no agregue los demas por que inician en 0
+                    
+                    JOptionPane.showInputDialog(null, "el equipo " + nuevoEquipo.nombreEquipo + " con el ID " + nuevoEquipo.IdEquipo + " se agrego con exito");
                     break;
                 case 3:
                     // faltan ver arreglos 
@@ -52,7 +54,5 @@ public class Equipo {
     }
 
 }
-
-
 
 
