@@ -67,7 +67,7 @@ public class ProyectoFinalFutbol5 {
 
     }
 
-      //private static void gestion_jugadores() {
-      //  throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-      //}
+    private static void gestion_jugadores() {
+      throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
