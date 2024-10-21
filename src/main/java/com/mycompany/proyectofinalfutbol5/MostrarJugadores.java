@@ -21,12 +21,12 @@ public class MostrarJugadores {
             actividad = "Inactivo";
         }
 
-//        JOptionPane.showMessageDialog(null, "DATOS DEL JUGADOR: " + nombre
-//                + "\nNOMBRE: " + nombre
-//                + "\nPOSICION: " + posicion
-//                + "\nEQUIPO: " + equipo
-//                + "\nGoles: " + goles
-//                + "\nESTADO: " + activo);
+        JOptionPane.showMessageDialog(null, "DATOS DEL JUGADOR: " + nombre
+                + "\nNOMBRE: " + nombre
+                + "\nPOSICION: " + posicion
+                + "\nEQUIPO: " + equipo
+                + "\nGoles: " + goles
+                + "\nESTADO: " + activo);
     }
 
 }
