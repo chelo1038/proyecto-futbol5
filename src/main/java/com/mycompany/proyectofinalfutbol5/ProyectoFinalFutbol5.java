@@ -14,7 +14,7 @@ public class ProyectoFinalFutbol5 {
             int codigo = Integer.parseInt(JOptionPane.showInputDialog(
                     "⚽bienvenido al gestor de Partidos de Fútbol Cinco⚽:\n"
                     + "_________________________________________________\n"
-                    + "1-Gestion de jugadores🏃\n"
+                    + "1- Gestion de jugadores🏃\n"
                     + "2- Gestión de Equipos. ⚙\n"
                     + "3- Simulación de Partidos. 🏃🏼‍\n"
                     + "4- Reportes. ⚠\n"
@@ -25,6 +25,7 @@ public class ProyectoFinalFutbol5 {
                     Jugadores.gestion_jugadores();
                     break;
                 case 2:
+                    Equipo.gestionEquipos();
 
                     break;
                 case 3:
@@ -66,7 +67,7 @@ public class ProyectoFinalFutbol5 {
 
     }
 
-    private static void gestion_jugadores() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+      //private static void gestion_jugadores() {
+      //  throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+      //}
 }
