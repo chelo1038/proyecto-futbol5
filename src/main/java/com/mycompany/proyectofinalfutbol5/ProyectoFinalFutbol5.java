@@ -69,7 +69,7 @@ public class ProyectoFinalFutbol5 {
         jugador1Equipo1.ID = 123654789;
         jugador1Equipo1.nombre = "Andres Perez";
         jugador1Equipo1.posicion = "Delantero";
-        jugador1Equipo1.equipo = "Saprissa";
+        jugador1Equipo1.equipo = "LDA";
         jugador1Equipo1.estado = "Titular";
         jugador1Equipo1.activo = true;
         jugador1Equipo1.goles = 0;
