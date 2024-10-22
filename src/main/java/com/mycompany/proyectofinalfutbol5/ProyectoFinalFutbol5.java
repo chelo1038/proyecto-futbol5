@@ -3,6 +3,17 @@ package com.mycompany.proyectofinalfutbol5;
 
 
 import javax.swing.JOptionPane;
+// esto es lo que nos va a evaluar en el primer avance
+
+//Semana 8: Primer Avance del Proyecto
+//Para este avance (5% del total del proyecto), se solicita presentar:
+//1- La definición básica de las clases y atributos relacionados con el proyecto incluye la estructura básica 
+//de las clases principales del proyecto con sus atributos y métodos sencillos.
+
+//2- La implementación de estructuras de navegación para todas las secciones del código los menús y 
+//submenús y botones que compone toda la navegación del proyecto.
+
+//3- Una versión preliminar del sistema que incluya la creación y gestión básica de jugadores y equipos.
 
 
 public class ProyectoFinalFutbol5 {
