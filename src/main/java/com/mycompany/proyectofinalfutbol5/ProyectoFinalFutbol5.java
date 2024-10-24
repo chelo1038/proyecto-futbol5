@@ -23,13 +23,16 @@ public class ProyectoFinalFutbol5 {
         while (ejecutar) {
 
             int codigo = Integer.parseInt(JOptionPane.showInputDialog(
-                    "⚽bienvenido al gestor de Partidos de Fútbol Cinco⚽:\n"
-                    + "_________________________________________________\n"
-                    + "1- Gestion de jugadores🏃\n"
-                    + "2- Gestión de Equipos. ⚙\n"
-                    + "3- Simulación de Partidos. 🏃🏼‍\n"
-                    + "4- Reportes. ⚠\n"
-                    + "5- Salir del Sistema. 🔚"));
+                     "   ⚽bienvenido al gestor de Partidos de Fútbol Cinco⚽\n"
+                     +"╔═══════════════════════════════════════════════════╗\n"
+                   
+                   
+                   + "   1- Gestion de jugadores🏃\n"
+                   + "   2- Gestión de Equipos.🏃🏃\n"
+                   + "   3- Simulación de Partidos. 🏃🏼‍🏃\n"
+                   + "   4- Reportes. ⚠\n"
+                   + "   5- Salir del Sistema. 🔚\n"
+                   + " ╚═══════════════════════════════════════════════════╝"));
 
             switch (codigo) {
                 case 1:
