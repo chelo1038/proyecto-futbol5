@@ -12,8 +12,8 @@ public class Jugadores {
 
             int codigo1 = Integer.parseInt(JOptionPane.showInputDialog(
                     "╔══════════════ Gestión de Jugadores ═════════════════╗\n"
-                    + "       1- Mostrar jugadores. 🏃\n"
-                    + "       2- Agregar nuevo jugador. ⚙\n"
+                    + "       1- Mostrar jugadores. 🏃🏃\n"
+                    + "       2- Agregar nuevo jugador. +🏃\n"
                     + "       3- Editar jugador. 🏃🏼‍\n"
                     + "       4- Eliminar jugador. ⚠\n"
                     + "       5- Volver al menu. 🔚\n"
