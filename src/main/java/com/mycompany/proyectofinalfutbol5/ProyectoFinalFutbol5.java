@@ -19,8 +19,16 @@ import javax.swing.JOptionPane;
 public class ProyectoFinalFutbol5 {
 
     public static void main(String[] args) {
+        
         boolean ejecutar = true;
         while (ejecutar) {
+            String[] opciones = {
+                "Gestión de jugadores", 
+                "Gestión de equipos", 
+                "Simulación de partidos", 
+                "Reportes", 
+                "Salir"
+            };
 
             int codigo = Integer.parseInt(JOptionPane.showInputDialog(
                      "   ⚽bienvenido al gestor de Partidos de Fútbol Cinco⚽\n"
@@ -81,7 +89,6 @@ public class ProyectoFinalFutbol5 {
 
     }
 
-    private static void gestion_jugadores() {
-      throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+   
+    
 }
