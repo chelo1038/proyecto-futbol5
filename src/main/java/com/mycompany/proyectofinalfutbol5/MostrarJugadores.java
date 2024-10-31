@@ -15,7 +15,7 @@ public class MostrarJugadores {
     public void mostrarDetalles() {
         String actividad;
 
-        if (activo) {
+        if (activo ==true) {
             actividad = "activo";
         } else {
             actividad = "Inactivo";
@@ -26,7 +26,7 @@ public class MostrarJugadores {
                 + "\nPOSICION: " + posicion
                 + "\nEQUIPO: " + equipo
                 + "\nGoles: " + goles
-                + "\nESTADO: " + activo);
+                + "\nESTADO: " + actividad);
     }
 
 }
