@@ -21,6 +21,8 @@ public class ProyectoFinalFutbol5 {
     public static void main(String[] args) {
         
         boolean ejecutar = true;
+        
+        
         while (ejecutar) {
             String[] opciones = {
                 "Gestión de jugadores", 
@@ -74,7 +76,7 @@ public class ProyectoFinalFutbol5 {
 
             }
         }
-
+// creo que esta mal 
         MostrarJugadores jugador1Equipo1 = new MostrarJugadores();
 
         jugador1Equipo1.ID = 123654789;
@@ -86,7 +88,21 @@ public class ProyectoFinalFutbol5 {
         jugador1Equipo1.goles = 0;
 
         jugador1Equipo1.mostrarDetalles();
+        
+        
+        
+        
 
+        
+       
+        
+        
+        
+        
+        
+        
+        
+        
     }
 
    
