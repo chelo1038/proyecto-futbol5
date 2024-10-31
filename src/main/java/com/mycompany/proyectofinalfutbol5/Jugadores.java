@@ -37,7 +37,7 @@ public class Jugadores {
                     // mostrando el jugador que se acaba de añadir
                     JOptionPane.showMessageDialog(null, "El jugador " + nuevoJugador.nombre + ", en la posicion " + nuevoJugador.posicion + " ha sido añadido con éxito.");
                     nuevoJugador.mostrarDetalles();
-                    JOptionPane.showMessageDialog(null, "para editar el jugador visitar la opcion de 3- Editar jugador. 🏃🏼‍");
+                    JOptionPane.showMessageDialog(null, "para editar el jugador recien agregado, visitar la opcion 3- Editar jugador. 🏃🏼‍");
 
                 case 3:
                     // faltan ver arreglos 
