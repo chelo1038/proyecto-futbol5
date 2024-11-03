@@ -87,6 +87,10 @@ public class ProyectoFinalFutbol5 {
 
         
 // creo que esta mal 
+
+
+
+
 //        MostrarJugadores jugador1Equipo1 = new MostrarJugadores();
 //
 //        jugador1Equipo1.ID = 123654789;
