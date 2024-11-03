@@ -19,40 +19,45 @@ import javax.swing.JOptionPane;
 public class ProyectoFinalFutbol5 {
 
     public static void main(String[] args) {
-        
-        boolean ejecutar = true;
-        
-        
-        while (ejecutar) {
-            String[] opciones = {
-                "Gestión de jugadores", 
-                "Gestión de equipos", 
-                "Simulación de partidos", 
-                "Reportes", 
-                "Salir"
-            };
 
-            int codigo = Integer.parseInt(JOptionPane.showInputDialog(
-                     "   ⚽bienvenido al gestor de Partidos de Fútbol Cinco⚽\n"
-                     +"╔═══════════════════════════════════════════════════╗\n"
-                   
-                   
-                   + "   1- Gestion de jugadores🏃\n"
-                   + "   2- Gestión de Equipos.🏃🏃\n"
-                   + "   3- Simulación de Partidos. 🏃🏼‍🏃\n"
-                   + "   4- Reportes. ⚠\n"
-                   + "   5- Salir del Sistema. 🔚\n"
-                   + " ╚═══════════════════════════════════════════════════╝"));
+        boolean ejecutar = true;
+
+        while (ejecutar) {
+
+           String mensaje = "selecione una opcion";
+                  
+//⚽bienvenido al gestor de Partidos de Fútbol Cinco⚽\n"
+//                    + "   1- Gestion de jugadores🏃\n"
+//                    + "   2- Gestión de Equipos.🏃🏃\n"
+//                    + "   3- Simulación de Partidos. 🏃🏼‍🏃\n"
+//                    + "   4- Reportes. ⚠\n"
+//                    + "   5- Salir del Sistema. 🔚\n";
+            String[] opciones = {
+                "1- Gestión de jugadores🏃",
+                "2- Gestión de Equipos🏃🏃",
+                "3- Simulación de Partidos🏃🏼‍🏃",
+                "4- Reportes⚠",
+                "5- Salir 🔚"
+            };
+            int codigo = JOptionPane.showOptionDialog(
+                    null,
+                    mensaje,
+                    "Gestor de Partidos de Fútbol Cinco⚽",
+                    JOptionPane.DEFAULT_OPTION,
+                    JOptionPane.INFORMATION_MESSAGE,
+                    null,
+                    opciones,
+                    opciones[3]);
 
             switch (codigo) {
-                case 1:
-                    Jugadores.gestion_jugadores();
+                case 0:
+                    Jugadores.gestionJugadores();
                     break;
-                case 2:
+                case 1:
                     Equipo.gestionEquipos();
 
                     break;
-                case 3:
+                case 2:
 
                     for (int i = 0; i < 5; i++) {
                         JOptionPane.showMessageDialog(null,
@@ -60,51 +65,47 @@ public class ProyectoFinalFutbol5 {
                     }
                     break;
 
-                case 4:
+                case 3:
                     JOptionPane.showMessageDialog(null,
                             "reportes");
                     break;
 
-                case 5:
+                case 4:
                     JOptionPane.showMessageDialog(null,
                             "saliendo del sistema, hasta luego! ");
                     ejecutar = false;
                     break;
 
                 default:
-                    JOptionPane.showMessageDialog(null, "numero incorrecto, intente nuevamente ");
+                    JOptionPane.showMessageDialog(null, "si desea salir selecione la opcion,  5- Salir 🔚");
 
             }
+
         }
-// creo que esta mal 
-        MostrarJugadores jugador1Equipo1 = new MostrarJugadores();
-
-        jugador1Equipo1.ID = 123654789;
-        jugador1Equipo1.nombre = "Andres Perez";
-        jugador1Equipo1.posicion = "Delantero";
-        jugador1Equipo1.equipo = "LDA";
-        jugador1Equipo1.estado = "Titular";
-        jugador1Equipo1.activo = true;
-        jugador1Equipo1.goles = 0;
-
-        jugador1Equipo1.mostrarDetalles();
-        
-        
-        
-        
-
-        
-       
-        
-        
-        
-        
-        
-        
-        
-        
     }
+}
+
+        
+// creo que esta mal 
+//        MostrarJugadores jugador1Equipo1 = new MostrarJugadores();
+//
+//        jugador1Equipo1.ID = 123654789;
+//        jugador1Equipo1.nombre = "Andres Perez";
+//        jugador1Equipo1.posicion = "Delantero";
+//        jugador1Equipo1.equipo = "LDA";
+//        jugador1Equipo1.estado = "Titular";
+//        jugador1Equipo1.activo = true;
+//        jugador1Equipo1.goles = 0;
+//
+//        jugador1Equipo1.mostrarDetalles();
+        
+ 
+    
 
    
     
-}
+
+//JOptionPane.ERROR_MESSAGE:           Muestra un ícono de error.
+//JOptionPane.INFORMATION_MESSAGE:     Muestra un ícono de información.
+//JOptionPane.WARNING_MESSAGE:         Muestra un ícono de advertencia.
+//JOptionPane.QUESTION_MESSAGE:        Muestra el ícono de pregunta que ya has estado viendo.
