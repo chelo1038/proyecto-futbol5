@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class Jugadores {
 
-    public static void gestion_jugadores() {
+    public static void gestionJugadores() {
         //String jugador= JOptionPane.showInputDialog("ingrese el nombre del jugador  ");
         // JOptionPane.showMessageDialog(null,"el jugador: " + jugador + ", fue añadido con exito");
         boolean jugadorGestion = true;
@@ -35,7 +35,7 @@ public class Jugadores {
                     nuevoJugador.goles = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cantidad de goles: "));
                     nuevoJugador.activo = JOptionPane.showConfirmDialog(null, "¿Está activo?") == JOptionPane.YES_OPTION;
                     // mostrando el jugador que se acaba de añadir
-                    JOptionPane.showMessageDialog(null, "El jugador " + nuevoJugador.nombre + ", en la posicion " + nuevoJugador.posicion + " ha sido añadido con éxito.");
+                    JOptionPane.showMessageDialog(null, "El jugador " + nuevoJugador.nombre +", en la posicion " + nuevoJugador.posicion+", ha sido añadido con éxito.");
                     nuevoJugador.mostrarDetalles();
                     JOptionPane.showMessageDialog(null, "para editar el jugador recien agregado, visitar la opcion 3- Editar jugador. 🏃🏼‍");
 
