@@ -26,12 +26,7 @@ public class ProyectoFinalFutbol5 {
 
            String mensaje = "selecione una opcion";
                   
-//⚽bienvenido al gestor de Partidos de Fútbol Cinco⚽\n"
-//                    + "   1- Gestion de jugadores🏃\n"
-//                    + "   2- Gestión de Equipos.🏃🏃\n"
-//                    + "   3- Simulación de Partidos. 🏃🏼‍🏃\n"
-//                    + "   4- Reportes. ⚠\n"
-//                    + "   5- Salir del Sistema. 🔚\n";
+
             String[] opciones = {
                 "1- Gestión de jugadores🏃",
                 "2- Gestión de Equipos🏃🏃",
@@ -86,30 +81,3 @@ public class ProyectoFinalFutbol5 {
 }
 
         
-// creo que esta mal 
-
-
-
-
-//        MostrarJugadores jugador1Equipo1 = new MostrarJugadores();
-//
-//        jugador1Equipo1.ID = 123654789;
-//        jugador1Equipo1.nombre = "Andres Perez";
-//        jugador1Equipo1.posicion = "Delantero";
-//        jugador1Equipo1.equipo = "LDA";
-//        jugador1Equipo1.estado = "Titular";
-//        jugador1Equipo1.activo = true;
-//        jugador1Equipo1.goles = 0;
-//
-//        jugador1Equipo1.mostrarDetalles();
-        
- 
-    
-
-   
-    
-
-//JOptionPane.ERROR_MESSAGE:           Muestra un ícono de error.
-//JOptionPane.INFORMATION_MESSAGE:     Muestra un ícono de información.
-//JOptionPane.WARNING_MESSAGE:         Muestra un ícono de advertencia.
-//JOptionPane.QUESTION_MESSAGE:        Muestra el ícono de pregunta que ya has estado viendo.
