@@ -31,11 +31,24 @@ public class Jugadores {
                     nuevoJugador.nombre = JOptionPane.showInputDialog("Ingrese el nombre del jugador: ");
                     nuevoJugador.posicion = JOptionPane.showInputDialog("Ingrese la posición del jugador: ");
                     nuevoJugador.equipo = JOptionPane.showInputDialog("Ingrese el equipo del jugador: ");
-                    nuevoJugador.estado = JOptionPane.showInputDialog("Ingrese el estado del jugador (Titular/Suplente): ");
-                    nuevoJugador.goles = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cantidad de goles: "));
+                    String Titular = "¿El jugador es Titular o Suplente?";
+                    String[] opcionesTitular = {"Titular", "Suplente"};
+                    int seleccion = JOptionPane.showOptionDialog(
+                            null,
+                            Titular,
+                            "Estado del Jugador",
+                            JOptionPane.DEFAULT_OPTION,
+                            JOptionPane.QUESTION_MESSAGE,
+                            null,
+                            opcionesTitular,
+                            opcionesTitular[0]);
+                    if (seleccion == 0) {
+                        nuevoJugador.estado = "Titular";
+                    } else if (seleccion == 1) {
+                        nuevoJugador.estado = "Suplente";
+                    }
                     nuevoJugador.activo = JOptionPane.showConfirmDialog(null, "¿Está activo?") == JOptionPane.YES_OPTION;
-                    // mostrando el jugador que se acaba de añadir
-                    JOptionPane.showMessageDialog(null, "El jugador " + nuevoJugador.nombre +", en la posicion " + nuevoJugador.posicion+", ha sido añadido con éxito.");
+                    JOptionPane.showMessageDialog(null, "El jugador " + nuevoJugador.nombre + ", en la posicion " + nuevoJugador.posicion + ", ha sido añadido con éxito.");
                     nuevoJugador.mostrarDetalles();
                     JOptionPane.showMessageDialog(null, "para editar el jugador recien agregado, visitar la opcion 3- Editar jugador. 🏃🏼‍");
 
