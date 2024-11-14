@@ -32,10 +32,10 @@ public class ProyectoFinalFutbol5 {
 
             switch (codigo) {
                 case 0:
-                    Jugadores.gestionJugadores();
+                    GestionJugadores.gestionJugadores();
                     break;
                 case 1:
-                    Equipo.gestionEquipos();
+                    GestionEquipo.gestionEquipos();
 
                     break;
                 case 2:
