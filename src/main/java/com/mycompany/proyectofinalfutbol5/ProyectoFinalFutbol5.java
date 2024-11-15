@@ -42,7 +42,7 @@ public class ProyectoFinalFutbol5 {
 
                     for (int i = 0; i < 5; i++) {
                         JOptionPane.showMessageDialog(null,
-                                "simulacion de 40 jugadas.");
+                                "futura simulacion de 40 jugadas.");
                     }
                     break;
 
